@@ -13,5 +13,8 @@
 
 * GPIO Expansion (MCP23017): https://www.adafruit.com/product/732
 
+* 3D-printed sphere enclosure: TBA
 
+## Schematics
+TBA
 

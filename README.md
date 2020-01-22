@@ -1,6 +1,8 @@
 # OSMOLIS
 **O**pen **S**ource **Mo**ving **Li**ght **S**ystem
 
+Inspired by: https://youtu.be/ICixCazf6-k?t=98
+
 ## Parts
 
 * Controller: Raspberry Pi Zero

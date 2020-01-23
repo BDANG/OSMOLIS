@@ -20,3 +20,9 @@ Inspired by: https://youtu.be/ICixCazf6-k?t=98
 ## Schematics
 TBA
 
+## Software Setup
+
+[Install CircuitPython](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi)
+
+- Make sure to enable i2c!
+

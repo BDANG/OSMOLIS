@@ -1,3 +1,4 @@
+import time
 import board
 import busio
 from adafruit_mcp230xx.mcp23017 import MCP23017

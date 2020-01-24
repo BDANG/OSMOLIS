@@ -16,7 +16,7 @@ from digitalio import Direction
 #led_pin.direction = Direction.OUTPUT
 
 num_pixels = 1
-pixels = adafruit_dotstar.DotStar(board.D23, board.D24, num_pixels, brightness=0.1, auto_write=False)
+pixels = adafruit_dotstar.DotStar(board.D23, board.D24, num_pixels, brightness=0.5, auto_write=False)
 
 
 def wheel(pos):
@@ -115,16 +115,16 @@ WHITE = (255, 255, 255)
 
 while True:
     # Change this number to change how long it stays on each solid color.
-    color_fill(RED, 0.5)
-    color_fill(YELLOW, 0.5)
-    color_fill(ORANGE, 0.5)
-    color_fill(GREEN, 0.5)
-    color_fill(TEAL, 0.5)
-    color_fill(CYAN, 0.5)
-    color_fill(BLUE, 0.5)
-    color_fill(PURPLE, 0.5)
-    color_fill(MAGENTA, 0.5)
-    color_fill(WHITE, 0.5)
+    color_fill(RED, 1)
+    color_fill(YELLOW, 1)
+    color_fill(ORANGE, 1)
+    color_fill(GREEN, 1)
+    color_fill(TEAL, 1)
+    color_fill(CYAN, 1)
+    color_fill(BLUE, 1)
+    color_fill(PURPLE, 1)
+    color_fill(MAGENTA, 1)
+    color_fill(WHITE, 1)
 
     # Increase or decrease this to speed up or slow down the animation.
     # slice_alternating(0.1)

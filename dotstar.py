@@ -127,14 +127,14 @@ while True:
     color_fill(WHITE, 0.5)
 
     # Increase or decrease this to speed up or slow down the animation.
-    slice_alternating(0.1)
+    # slice_alternating(0.1)
 
-    color_fill(WHITE, 0.5)
+    # color_fill(WHITE, 0.5)
 
     # Increase or decrease this to speed up or slow down the animation.
-    slice_rainbow(0.1)
+    # slice_rainbow(0.1)
 
     time.sleep(0.5)
 
     # Increase this number to slow down the rainbow animation.
-    rainbow_cycle(0)
+    # rainbow_cycle(0)

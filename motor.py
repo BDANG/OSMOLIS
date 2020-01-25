@@ -51,6 +51,6 @@ def setStep(w1, w2, w3, w4):
 while True:
     user_delay = input("Delay between steps (milliseconds)?")
     user_steps = input("How many steps forward? ")
-    forward(int(user_delay) / 1000.0, int(user_steps))
+    forward(float(user_delay) / 1000.0, int(user_steps))
     #user_steps = input("How many steps backwards? ")
     #backwards(int(user_delay) / 1000.0, int(user_steps))

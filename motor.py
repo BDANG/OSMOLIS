@@ -5,9 +5,9 @@ from adafruit_mcp230xx.mcp23017 import MCP23017
 from digitalio import Direction, DigitalInOut
 
 
-i2c = busio.I2C(board.SCL, board.SDA)
+#i2c = busio.I2C(board.SCL, board.SDA)
 
-mcp = MCP23017(i2c)
+#mcp = MCP23017(i2c)
 
 # for L293D IC (motor driver)
 enable_pin = DigitalInOut(board.D18)

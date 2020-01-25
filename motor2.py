@@ -10,7 +10,7 @@ coil_B_2_pin = 24 # yellow
  
 # adjust if different
 StepCount = 8
-Seq = range(0, StepCount)
+Seq = [None for _ in range(0, StepCount)]
 Seq[0] = [0,1,0,0]
 Seq[1] = [0,1,0,1]
 Seq[2] = [0,0,0,1]

@@ -3,6 +3,7 @@ import time
  
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
+enable_pin = 18
 coil_A_1_pin = 4 # pink
 coil_A_2_pin = 17 # orange
 coil_B_1_pin = 23 # blue
@@ -48,8 +49,9 @@ def backwards(delay, steps):
  
 if __name__ == '__main__':
     while True:
-        delay = raw_input("Time Delay (ms)?")
-        steps = raw_input("How many steps forward? ")
+        delay = 300 #raw_input("Time Delay (ms)?")
+        steps = 3 #raw_input("How many steps forward? ")
         forward(int(delay) / 1000.0, int(steps))
-        steps = raw_input("How many steps backwards? ")
+        steps = 3 #raw_input("How many steps backwards? ")
         backwards(int(delay) / 1000.0, int(steps))
+        time.sleep(2)

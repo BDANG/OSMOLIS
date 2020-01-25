@@ -31,13 +31,13 @@ enable_pin.value = True
 def forward(delay, steps):
     i = 0
     while i in range(0, steps):
-        setStep(1, 0, 1, 0)
+        setStep(True, False, True, False)
         time.sleep(delay)
-        setStep(0, 1, 1, 0)
+        setStep(False, True, True, False)
         time.sleep(delay)
-        setStep(0, 1, 0, 1)
+        setStep(False, True, False, True)
         time.sleep(delay)
-        setStep(1, 0, 0, 1)
+        setStep(True, False, False, True)
         time.sleep(delay)
         i += 1
 
